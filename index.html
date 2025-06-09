@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CashNest - Banking App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+
+  <!-- App Header -->
+  <header class="bg-blue-600 text-white p-4 text-center text-xl font-bold shadow-md">
+    🏦 CashNest
+  </header>
+
+  <!-- Account Summary -->
+  <section class="p-4">
+    <div class="bg-white rounded-2xl shadow p-4">
+      <h2 class="text-lg font-semibold">👤 Account Holder:</h2>
+      <p class="text-gray-700 mb-2">Sukhdev Mondal</p>
+      <h2 class="text-lg font-semibold">💰 Total Balance:</h2>
+      <p class="text-green-600 text-2xl font-bold">₹5,00,00,000</p>
+    </div>
+  </section>
+
+  <!-- Transaction History -->
+  <section class="p-4">
+    <div class="bg-white rounded-2xl shadow p-4">
+      <h2 class="text-lg font-bold mb-2">📜 Transaction History (2018–2025)</h2>
+      <ul class="space-y-2 max-h-64 overflow-y-auto">
+        <!-- You can copy this <li> multiple times -->
+        <li class="border-b pb-2">
+          <div class="flex justify-between">
+            <span class="text-gray-600">Jan 2025</span>
+            <span class="text-blue-600 font-semibold">₹80,000</span>
+          </div>
+        </li>
+        <li class="border-b pb-2">
+          <div class="flex justify-between">
+            <span class="text-gray-600">Dec 2024</span>
+            <span class="text-blue-600 font-semibold">₹80,000</span>
+          </div>
+        </li>
+        <!-- Repeat above li for more months -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-500 mt-10 pb-4">
+    © 2025 CashNest App. All rights reserved.
+  </footer>
+
+</body>
+</html>
